@@ -1,0 +1,76 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+#heading{
+	margin: 50px;
+	text-align: center;
+	font-size: 175%;
+	margin
+}
+.ibox{
+	background-color: grey;
+	border: 1px solid black;
+	margin: 10px; 
+}
+/*.sec-title{
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid black;
+	float: right;
+	font-size: 125%;
+	margin-top: 0;
+	margin-right: 0;	
+}*/
+.content{
+	clear: right;
+	padding: 5px 20px 5px 20px;
+}
+#pizza{
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid black;
+	float: right;
+	font-size: 125%;
+	margin-top: 0;
+	margin-right: 0;
+	background-color: #00FFFF;
+}
+#burger{
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid black;
+	float: right;
+	font-size: 125%;
+	margin-top: 0;
+	margin-right: 0;
+	background-color: #DEB887;
+}
+#french-fries{
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid black;
+	float: right;
+	font-size: 125%;
+	margin-top: 0;
+	margin-right: 0;
+	background-color: #FF7F50;
+}
+@media (min-width: 992px){
+	.obox{
+		width: 33.33%;
+		float: left;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.obox{
+		width: 50%;
+		float: left;
+	}
+}
+@media (max-width: 767px){
+	.obox{
+		width: 100%;
+	}
+}
