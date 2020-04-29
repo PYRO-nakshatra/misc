@@ -12,7 +12,7 @@
 header{
 	background: -webkit-linear-gradient(#fc8904ba 0%,#ecda01e8 65%, #f8e8c3 100%);
 }
-#heading{
+div.text-center{
 	margin: 50px;
 	text-align: center;
 	font-size: 175%;
