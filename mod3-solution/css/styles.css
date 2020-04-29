@@ -1,0 +1,85 @@
+*{
+	font-family: Helvetica, sans-serif, Ariel ;
+/*	font-size: 150%;*/
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+#wbd{
+	background-color: #f8e8c3;
+	margin: 0;
+}
+header{
+	background: -webkit-linear-gradient(#fc8904ba 0%,#ecda01e8 65%, #f8e8c3 100%);
+}
+#heading{
+	margin: 50px;
+	text-align: center;
+	font-size: 175%;
+	border-radius: 30px;
+}
+.ibox{
+	background: -webkit-linear-gradient(#fc8904ba 0%,#ecda01e8 25%, #f8e8c3 100%);
+	margin: 30px auto;
+	width: 80%; 
+	padding-bottom: 30px;
+	border-radius: 50px;
+	opacity: 0.8;
+}
+.content{
+	clear: right;
+	padding: 5px 20px 5px 20px;
+}
+#pizza{
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+	font-size: 200%;
+	color: #ffffff;
+	margin-top: 0;
+	margin-right: 0;
+	border-radius: 0 50px 0 0;
+}
+#burger{
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+	font-size: 200%;
+	color: #ffffff;
+	margin-top: 0;
+	margin-right: 0;
+	border-radius: 0 50px 0 0;
+}
+#french-fries{
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+	font-size: 200%;
+	color: #ffffff;
+	margin-top: 0;
+	margin-right: 0;
+	border-radius: 0 50px 0 0;
+}
+.nav-button{
+	font-size: 18px;
+	height: 40px;
+	width: 80%;
+	background-color: #ffffff24;
+	margin: 5px auto;
+	border-radius: 5px;
+	padding: 10px;
+}
+button{
+	height: 40px;
+	width: 40px;
+	border-radius: 2px;
+	border: 2px solid black;
+	opacity: 0.3;
+	background: -webkit-radial-gradient(#ffffff 0%, #fc8904ba  100%);
+}
+div.links{
+	color: #000000;
+	opacity: 0.6;
+}
+@media (min-width: 767px){
+	button{
+		display: none;
+	}
+}
